@@ -1,6 +1,9 @@
 import './App.css';
 import ChangeFocus from './components/0329/ChangeFocus';
 import ColorInput from './components/0329/ColorInput';
+import Comparing from './components/0329/Comparing';
+import QuizNumber from './components/0329/QuizNumber';
+import ReactFragment from './components/0329/ReactFragment';
 import RefDomControl from './components/0329/RefDomControl';
 // import MainHeader from './components/MainHeader';
 // import ImgComponent from './components/ImgComponent';
@@ -36,7 +39,7 @@ function App() {
   // };
   return (
     <div className="App">
-      <ColorInput />
+      <ReactFragment />
     </div>
   );
 }
