@@ -1,0 +1,12 @@
+div.root {
+  background-color: orange;
+
+  & > h1 {
+    color: dodgerblue;
+  }
+
+  & > spna {
+    background-color: aquamarine;
+    font-weight: 700;
+  }
+}
